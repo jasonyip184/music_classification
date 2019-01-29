@@ -1,0 +1,14 @@
+{
+  "name": "myapp",
+  "version": "1.0.0",
+  "description": "Music Application",
+  "main": "index.js",
+  "author": "Nicklaus Ong",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap-material-design": "^4.1.1",
+    "dialog-polyfill": "^0.4.10",
+    "material-design-lite": "^1.3.0",
+    "material-modal": "^0.1.3"
+  }
+}

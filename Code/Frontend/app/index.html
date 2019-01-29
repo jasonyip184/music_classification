@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Material Design for Bootstrap fonts and icons -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons">
+
+  <!-- Material Design for Bootstrap CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css" integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.amber-yellow.min.css" />
+  <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+
+  <script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+  <script src="//storage.googleapis.com/code.getmdl.io/1.2.1/material.min.js"></script>
+  <link rel="stylesheet"
+  href="https://storage.googleapis.com/code.getmdl.io/1.2.1/material.deep_orange-amber.min.css"/>
+  <link rel="stylesheet"
+  href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium">
+</head>
+<body>
+
+  <div class="mdl-layout mdl-js-layout mdl-layout--fixed-drawer">
+    <div class="mdl-layout__drawer">
+      <span class="mdl-layout-title">Navigation</span>
+      <nav class="mdl-navigation">
+        <a class="mdl-navigation__link" href="">Search</a>
+        <a class="mdl-navigation__link" href="index.html">Home</a>
+        <a class="mdl-navigation__link" href="songs.html">Songs</a>
+        <a class="mdl-navigation__link" href="upload.html">UPLOAD A SONG</a>
+      </nav>
+    </div>
+    <main class="mdl-layout__content center-items">
+      <div class="page-content">
+        <div style="display: flex; justify-content: center;">
+          <img src="logo.png" alt="logo" width="150" height="150"/>
+        </div>
+
+        <div class="mdl-grid center-items">
+
+          <div style='width:20px'></div>
+
+          <div class="demo-card-image mdl-card mdl-shadow--16dp" id="cells" style='background: url(images/classical.jpg) center / cover; float: left;'>
+            <div class="mdl-card__title mdl-card--expand"></div>
+            <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href='genres/classical.html'>
+              <div class="mdl-card__actions mdl-card--border">
+                <span class="demo-card-image__filename">
+
+                  Classical
+                </span>
+              </div>
+            </a>
+          </div>
+
+          <div style='width:30px'></div>
+
+          <div class="demo-card-image mdl-card mdl-shadow--16dp" id="cells" style='background: url(images/country.jpg) center / cover; float: left;'>
+            <div class="mdl-card__title mdl-card--expand"></div>
+            <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href='genres/country.html'>
+              <div class="mdl-card__actions mdl-card--border">
+                <span class="demo-card-image__filename">Country</span>
+              </div>
+            </a>
+          </div>
+
+          <div style='width:30px'></div>
+
+          <div class="demo-card-image mdl-card mdl-shadow--16dp" id="cells" style='background: url(images/electronic.jpg) center / cover;'>
+            <div class="mdl-card__title mdl-card--expand"></div>
+            <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href='genres/electronic.html'>
+              <div class="mdl-card__actions mdl-card--border">
+                <span class="demo-card-image__filename">Electronic</span>
+              </div>
+            </a>
+          </div>
+
+        </div>
+
+
+
+        <div class="mdl-grid center-items">
+
+          <div style='width:160px'></div>
+
+          <div class="demo-card-image mdl-card mdl-shadow--16dp" id="cells" style='background: url(images/hiphop.jpg) center / cover; float: left;'>
+            <div class="mdl-card__title mdl-card--expand"></div>
+            <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href='genres/hiphop.html'>
+              <div class="mdl-card__actions mdl-card--border">
+                <span class="demo-card-image__filename">Hiphop</span>
+              </div>
+            </a>
+          </div>
+
+          <div style='width:40px'></div>
+
+          <div class="demo-card-image mdl-card mdl-shadow--16dp" id="cells" style='background: url(images/rock.jpg) center / cover; float: left; '>
+            <div class="mdl-card__title mdl-card--expand"></div>
+            <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" style='background' href='genres/rock.html'>
+              <div class="mdl-card__actions mdl-card--border">
+                <span class="demo-card-image__filename">Rock</span>
+              </div>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </main>
+  </div>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js" integrity="sha384-fA23ZRQ3G/J53mElWqVJEGJzU0sTs+SvzG8fXVWP+kJQ1lwFAOkcUOysnlKJC33U" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js" integrity="sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9" crossorigin="anonymous"></script>
+  <script>$(document).ready(function() { $('body').bootstrapMaterialDesign(); });</script>
+</body>
+</html>
+
+<style>
+.mdl-layout__drawer{
+  color: #212121;
+}
+.mdl-navigation__link{
+  color: #FFFFFF;
+}
+.mdl-layout__content{
+  background-image: url("images/background.jpg");
+  background-size:     cover;                      /* <------ */
+  background-repeat:   no-repeat;
+  background-position: center center;              /* optional, center the image */
+}
+
+
+
+.demo-card-image.mdl-card {
+  height: 200px;
+  width: 300px;
+}
+.demo-card-image > .mdl-card__actions {
+  height: 50px;
+  padding: 16px;
+  background: rgba(0, 0, 0, 0.2);
+}
+.demo-card-image__filename {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+}
+</style>

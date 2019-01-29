@@ -1,0 +1,1 @@
+for %%a in ("*.*") do ffmpeg -ss 5 -t 30 -i "%%a" -acodec copy "new\%%~na.mp3"
