@@ -13,4 +13,7 @@ It represents the song graphically by showing the variation in frequency/pitch (
 
 By approaching this from an image-based implementation where the model learns a genre from an album of spectrograms, we get to save on tedious feature engineering work.
 
+## Results
+I served the model as a REST API using Flask and it takes in a music file as input and outputs a single label for its genre.
+
 
